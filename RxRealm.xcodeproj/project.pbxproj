@@ -185,7 +185,6 @@
 
 /* Begin PBXFileReference section */
 		074CDA1C713713A27B9CE010 /* RxRealmResultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmResultsTests.swift; sourceTree = "<group>"; };
-		0AB699E9CC552B40D1161A42 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		105F0474E240FC18ED7BFA43 /* RxRealmObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmObjectTests.swift; sourceTree = "<group>"; };
 		1E9D31CAD96293BBD551853D /* RxRealmTests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxRealmTests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C341B3590DEC423785B870 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTest.framework; sourceTree = "<group>"; };
@@ -211,7 +210,6 @@
 		98DDD7E7745ACF27877765E0 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
 		99B4130258A5CF6BDD1272D3 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
 		9ED1C8A1F1D1791A314475DB /* RxRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A78EF38585A01050B762270B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		A8C40BC367CFEDAE224E5BDB /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		AA722B82BCBB0FB913962547 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		AADDB130812A09365006A56D /* RxRealmTests tvOS.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "RxRealmTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,13 +217,11 @@
 		B80DE653DC7500C346989697 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxRelay.framework; sourceTree = "<group>"; };
 		B8CAD73B2AC3082042C5893C /* TestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModels.swift; sourceTree = "<group>"; };
 		BA9AA258335B7EBC842E5168 /* RxRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4EE1F038C3DFCE761D706EA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		C8C6D39A28B108660E1C9E2E /* RxRealmOnQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmOnQueueTests.swift; sourceTree = "<group>"; };
 		C9153CD912A461269D65969C /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		D20A1EF63BCE5C391998F8CB /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		D5F54E29744A17BB935081D5 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
 		E02D93C74FED5C7BFBEA4447 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
-		E86493FCBA274CB3E28C2676 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		EBD4562F9F242F57A0C91ED1 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = "<group>"; };
 		ED0583D2759159394A5A234A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
 		F02C1232E98B56F6662D4553 /* RxRealmTests iOS.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "RxRealmTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -325,7 +321,6 @@
 		2C6A44EB8D7F688005898DAE /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				A78EF38585A01050B762270B /* Realm.framework */,
 				C9153CD912A461269D65969C /* RealmSwift.framework */,
 				D5F54E29744A17BB935081D5 /* RxCocoa.framework */,
 				84060F07531F5BCE23AD3475 /* RxRelay.framework */,
@@ -384,7 +379,6 @@
 		94CE851B0024165E8DEBE20E /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				C4EE1F038C3DFCE761D706EA /* Realm.framework */,
 				980DA13898F199469C1705CB /* RealmSwift.framework */,
 				EBD4562F9F242F57A0C91ED1 /* RxBlocking.framework */,
 				99B4130258A5CF6BDD1272D3 /* RxCocoa.framework */,
@@ -398,7 +392,6 @@
 		B4C6436B4EFFBC88314F1763 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0AB699E9CC552B40D1161A42 /* Realm.framework */,
 				D20A1EF63BCE5C391998F8CB /* RealmSwift.framework */,
 				73F21FCD0B47A176FA0825F5 /* RxBlocking.framework */,
 				B12E96D25A38DADF2258913C /* RxCocoa.framework */,
@@ -441,7 +434,6 @@
 		EE92B0F86DAD72FE408C5D0F /* Mac */ = {
 			isa = PBXGroup;
 			children = (
-				E86493FCBA274CB3E28C2676 /* Realm.framework */,
 				AA722B82BCBB0FB913962547 /* RealmSwift.framework */,
 				3B2E770F0D9AA911134D733F /* RxBlocking.framework */,
 				84A5083ED8CF945D74A17579 /* RxCocoa.framework */,
